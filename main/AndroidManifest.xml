@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="firma.bookapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Uye_Giris"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".KitapDetayGorme"
+            android:label="Book Detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UyeOl"
+            android:label="Register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_uye__giris"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sifre_kontrol"
+            android:label="Check password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sifre_degistir"
+            android:label="@string/title_activity_sifre_degistir"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Kitap_Ekle"
+            android:label="@string/title_activity_kitap__ekle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".popup"
+            android:label="@string/title_activity_kitap__ekle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SiparisListe"
+            android:label="@string/title_activity_siparis_liste"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

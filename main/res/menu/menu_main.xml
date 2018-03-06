@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="firma.bookapp.MainActivity">
+    <item
+        android:id="@+id/anasayfa"
+        android:icon="@drawable/ev"
+        android:title="Main page" />
+    <item
+        android:id="@+id/adresad"
+        android:icon="@drawable/kategori"
+        android:title="Category" />
+    <item
+        android:id="@+id/alisveris"
+        android:icon="@drawable/sepet"
+        android:title="Buy" />
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/exit"
+        android:title="Exit" />
+</menu>

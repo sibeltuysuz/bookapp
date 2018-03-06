@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="45dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.helloworld.kisiselnot.Uye_Giris"
+    tools:showIn="@layout/activity_uye__giris"
+    android:id="@+id/p"
+    android:gravity="center"
+    android:background="#E2E3E8">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sifre"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout"
+        android:layout_marginTop="18dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:id="@+id/giris"
+            android:background="#252637"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/sifre"
+            android:layout_toLeftOf="@+id/uye_olma"
+            android:layout_toStartOf="@+id/uye_olma" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:background="@drawable/person"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/mail"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edittext"
+        android:hint="Username"
+        android:textStyle="italic"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:linksClickable="false"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/sifre"
+        android:layout_below="@+id/mail"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittext"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:textStyle="italic"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:inputType="textPassword"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not remember password?"
+        android:id="@+id/sifre_unut"
+        android:textSize="17dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register?"
+        android:id="@+id/üye_ol"
+        android:textSize="17dp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/sifre_unut"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="3dp"
+        card_view:cardElevation="5dp"
+        card_view:contentPadding="10dp"
+        android:id="@+id/card_view1"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:id="@+id/image"
+                    android:padding="10dp"
+                    android:background="@drawable/book"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentBottom="false"
+                    android:layout_alignParentLeft="false" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Başlık"
+                    android:id="@+id/nameTxt"
+                    android:padding="7dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/image"
+                    android:textColor="#e64d4d"
+                    android:maxLines="1"
+                    android:layout_width="270dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Açıklama"
+                    android:id="@+id/adresad"
+                    android:paddingLeft="7dp"
+                    android:layout_toRightOf="@+id/image"
+                    android:textColor="#242424"
+                    android:maxLines="1"
+                    android:layout_alignParentBottom="false"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignWithParentIfMissing="false"
+                    android:layout_alignBottom="@+id/image"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/tarih"
+                    android:layout_centerVertical="true"
+                    android:layout_below="@+id/adresad"
+                    android:layout_toRightOf="@+id/image"
+                    android:textStyle="italic"
+                    android:textColor="#5bf963"
+                    android:paddingLeft="7dp"
+                    android:maxLines="1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BookApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_not_detay_gorme">NotDetayGorme</string>
+    <string name="title_activity_uye_ol">UyeOl</string>
+
+    <string-array name="soru">
+        <item>What is the name of your first pet?</item>
+        <item>What is your favourite team?</item>
+        <item>Where were you born?</item>
+        <item>What is your favourite goods?</item>
+    </string-array>
+
+    <string name="title_activity_uye__giris">Admin Panel ↓ </string>
+    <string name="title_activity_sifre_kontrol">Password control ↓ </string>
+    <string name="title_activity_sifre_degistir">Password update ↓ </string>
+    <string name="title_activity_kitap__ekle">Add book ↓ </string>
+
+    <string-array name="kategori">
+        <item>Arts</item>
+        <item>Science</item>
+        <item>Technology</item>
+        <item>Psychlogy</item>
+        <item>History</item>
+    </string-array>
+    <string name="title_activity_siparis_liste">SiparisListe</string>
+
+</resources>
